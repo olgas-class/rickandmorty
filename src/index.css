@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+.card-inner {
+  display: flex;
+  background-color: rgb(39, 43, 51);
+  color: white;
+}
+
+.card-image,
+.card-text {
+  width: 50%;
+}
+
+.card-text {
+  padding: 10px;
+}
+
+.status {
+  flex-shrink: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+
+.status.alive {
+  background-color: green;
+}
+
+.status.dead {
+  background-color: red;
+}
+
+.status-block {
+  margin-top: 10px;
+  display: flex;
+}
