@@ -66,3 +66,7 @@ img {
   margin-top: 10px;
   display: flex;
 }
+
+.active {
+  background-color: yellow;
+}
